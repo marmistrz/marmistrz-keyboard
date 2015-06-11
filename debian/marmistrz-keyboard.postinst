@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+if ! grep -q marmistrz-keyboard /usr/share/X11/xkb/rules/base; then
+	# add marmistrz-keyboard symbols
+	sed -i 's/nokia_vndr\/su-8w(%l)/\0\n  marmistrz-keyboard	*		=	nokia_vndr\/marmistrz-keyboard(common)+nokia_vndr\/marmistrz-keyboard(%l%_v)/' /usr/share/X11/xkb/rules/base
+	# add types for marmistrz-keyboard
+	sed -i 's/$nokiamodels	=	complete+nokia/\0\n  marmistrz-keyboard	=	complete+nokia+marmistrz-keyboard/' /usr/share/X11/xkb/rules/base
+fi
+
+exit 0

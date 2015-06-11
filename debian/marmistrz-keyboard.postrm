@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sed -ni '/marmistrz-keyboard/!p' /usr/share/X11/xkb/rules/base
+
+exit 0

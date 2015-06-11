@@ -1,0 +1,15 @@
+Source: marmistrz-keyboard
+Section: user/system
+Priority: optional
+Maintainer: Marcin Mielniczuk <marmistrz@inboxalias.com>
+Build-Depends: debhelper7
+Standards-Version: 3.6.1
+Homepage: http://marmistrz.net63.net
+XSBC-Bugtracker: mailto:marmistrz@inboxalias.com
+
+Package: marmistrz-keyboard
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ukeyboard
+Description: marmistrz's set of keyboard layouts
+ This package provides Polish, Greek and Russian (phonetic) layouts in one file to enable setxkbmap switching.
+ You can use it to create your own, analogical set of layouts.

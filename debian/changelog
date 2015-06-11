@@ -1,0 +1,12 @@
+marmistrz-keyboard (1.0.1) unstable; urgency=low
+
+  * Possibly fix the broken layouts
+
+ -- Marcin Mielniczuk <marmistrz@inboxalias.com>  Thu, 11 Jun 2015 15:51:41 +0200
+
+marmistrz-keyboard (1.0) unstable; urgency=low
+
+  * Initial version
+
+ -- Marcin Mielniczuk <marmistrz@inboxalias.com>  Tue,  30 May 2015 14:08:39 +0100
+

@@ -1,0 +1,12 @@
+Package: marmistrz-keyboard
+Version: 1.0.1
+Section: user/system
+Priority: optional
+Architecture: all
+Depends: ukeyboard
+Installed-Size: 60
+Maintainer: Marcin Mielniczuk <marmistrz@inboxalias.com>
+Description: marmistrz's set of keyboard layouts
+ This package provides Polish, Greek and Russian (phonetic) layouts in one file to enable setxkbmap switching.
+ You can use it to create your own, analogical set of layouts.
+Bugtracker: mailto:marmistrz@inboxalias.com
